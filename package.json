@@ -1,0 +1,23 @@
+{
+  "name": "badbank_three_tiers",
+  "version": "1.0.0",
+  "engines": {
+    "node": "18.14.0"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"react-scripts start\" \"cd backend && nodemon server\"",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^8.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^3.7.4"
+  }
+}
